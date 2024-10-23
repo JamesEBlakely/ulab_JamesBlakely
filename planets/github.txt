@@ -1,0 +1,22 @@
+1. Using pwd will show your absolute path.
+2. Using ls will show all files and directories in \texttt{/music/}. This will display patterns.txt and symmetry.py. 
+3. Using nano patterns.txt will allow you to edit the file.
+4. Using cat patterns.txt will print the contents of the file to the terminal.
+5. Using diff patterns.txt symmetry.py will diplay the differences between the two files.
+6. Using mv patterns.txt ~/math/calculus will move the file to the specified location.
+7. Assuming you are in ~/math/geometry, using rm triangle.txt will remove the file from the repository.
+8. Using cd ../math will allow you to change directories. 
+9. Using git init will turn the folder into a local git repository.
+10. Using git remote add (SSH) where you insert the SSH key of the remote repository will connect the local to the remote repository.
+11. Assuming you are in the /music folder, using cp symmetry.txt ../math will copy the file over.
+12. Using git status will allow you to view the state of your working directory and staging area. Git is not tracking the file because we have not used git add yet.
+13. Using git add symmetry.txt will add the file to the staging area. git add . will add all changes to the staging area.
+14. Git is now tracking the file. Using git rm -r --cached symmetry.txt will unstage the file.
+15. Using git commit -m "Added symmetry.txt to math" will commit the changes to the local repository.
+16. Using git push will push the changes to the remote repository. You should push to the main branch.
+17. Using git branch applied_math will create a new branch.
+18. Using git checkout applied_math  will allow you to move to the new branch.
+19. To push all of the changes made, you must use git add mechanics.txt, then git commit -m "Created mechanics.txt", and finally, git push. If you switch back to your original branch before committing these changes, they will be pushed to the original branch instead.
+20. Using git branch will list all branches. The one highlighted in green will be the applied_math branch.
+21. Using git checkout - will allow you to move back to your original branch.
+22. Using git merge applied_math will allow you to combine the applied_math branch with the original.
